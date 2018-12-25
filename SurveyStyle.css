@@ -1,0 +1,57 @@
+body{
+    background-color: rgb(152, 211, 206);
+}   
+
+.labels{
+    display: inline-block;
+    /* text-align: right; */
+}
+
+.rightTab{
+    display: inline-block;
+}
+
+#title{
+    padding: 2px;   
+    font-family: monospace;
+    font-size: 35px;
+    text-align: center;
+}
+#layer{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: aliceblue;
+    max-width: 80%;
+    margin: auto;
+    padding:  20px;
+}
+
+#layout{
+    text-align: center;
+}
+
+#name{
+    margin: 5px;
+}
+input[type = text], input[type = number] {
+    border-radius: 4px;
+    padding: 5px;
+    width: 150%;
+    margin: 5px;
+}
+
+#email{
+    /* margin: 5px; */
+}
+#description{
+    font-size: 17px;
+}
+div{
+    display: block;
+}
+
+#dropdown{
+    margin: 5px;
+    display: inline-block;
+    
+}

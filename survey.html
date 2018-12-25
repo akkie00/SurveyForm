@@ -1,7 +1,56 @@
 <!DOCTYPE html>
+
 <head>
     <title>
         MySurveyForm
     </title>
-    <link href="SurveyStyle.css" type="">
+    <link href="SurveyStyle.css" rel="stylesheet">
 </head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <div id="layer">
+        <p id="description">Help improvise our Restaurant</p>
+        <form id="survey-form">
+            <fieldset>
+                <div id="layout">
+                    <div id="name">
+                        <div class="labels">
+                            <label for="name">* Name:</label>
+                        </div>
+                        <div class="rightTab" id="name-label">
+                            <input type="text" placeholder="Enter your name.." id="inputTag" title="Please provide your name!"
+                                required>
+                        </div>
+                    </div>
+                    <div id="email">
+                        <div class="labels">
+                            <label for="email">* Email:</label>
+                        </div>
+                        <div class="rightTab" id="email-label">
+                            <input type="text" placeholder="Enter your email ID.." required>
+                        </div>
+                    </div>
+                    <div id="number">
+                        <div class="labels">
+                            <label for="age">* Age:</label>
+                        </div>
+                        <div class="rightTab" id="number-label">
+                            <input type="number" placeholder="What's your age?" required max="150" pattern="[0-9]">
+                        </div>
+                    </div>
+                    <div  id="dropdown">
+                        <span class="labels">Select your choice at our place: </span>
+                        <select name="preferences" class="rightTab">
+                            <option value="ac">Air Conditioned</option>
+                            <option value="bar">Basement Bar</option>
+                            <option value="ac-screen">Big Screen + AC</option>
+                            <option value="sports-bar">Sports Bar Section</option>
+                        </select>
+                    </div>
+
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
