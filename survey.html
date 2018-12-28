@@ -39,18 +39,50 @@
                             <input type="number" placeholder="What's your age?" required max="150" pattern="[0-9]">
                         </div>
                     </div>
-                    <div  id="dropdown">
+                    <div id="dropdown">
                         <span class="labels">Select your choice at our place: </span>
-                        <select name="preferences" class="rightTab">
+                        <select name="preferences">
                             <option value="ac">Air Conditioned</option>
                             <option value="bar">Basement Bar</option>
                             <option value="ac-screen">Big Screen + AC</option>
                             <option value="sports-bar">Sports Bar Section</option>
                         </select>
                     </div>
-
+                    <div>
+                        Would you recommend our place to your friends? :
+                        <label for="recommendation">
+                            <input type="radio" name="recommendation" value="yes">Yes
+                            <input type="radio" name="recommend" value="no">No
+                        </label>
+                    </div>
+                    <div class="r-buttons">
+                        <div>
+                            <label class="labels">
+                                How many times do you visit our place on a monthly basis?
+                            </label>
+                        </div>
+                        <div class="rightTab">
+                            <ul >
+                                <li class="radio">
+                                    <label>
+                                        <input type="radio" name="visits"> Once or Twice
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="visits"> more than twice
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="visits"> This is my first time
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        
+                    </div>
                 </div>
             </fieldset>
         </form>
     </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
